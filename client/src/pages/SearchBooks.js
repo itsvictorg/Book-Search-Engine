@@ -86,11 +86,9 @@ const SearchBooks = () => {
     }
   };
 
-  console.log('hello')
-
+  
   return (
     <>
-    <p>jadhsjkHSA</p>
       <div className="text-light bg-dark p-5">
         <Container>
           <h1>Search for Books!</h1>
@@ -154,5 +152,6 @@ const SearchBooks = () => {
     </>
   );
 };
+console.log('hello again')
 
 export default SearchBooks;
