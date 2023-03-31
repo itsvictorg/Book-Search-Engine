@@ -30,6 +30,7 @@ export const loginUser = (userData) => {
 
 // save book data for a logged in user
 export const saveBook = (bookData, token) => {
+  console.log(bookData)
   return fetch('/api/users', {
     method: 'PUT',
     headers: {
@@ -38,6 +39,7 @@ export const saveBook = (bookData, token) => {
     },
     body: JSON.stringify(bookData),
   });
+  
 };
 
 // remove saved book data for a logged in user
